@@ -1,11 +1,11 @@
 html {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .wrapper {
     height: 1195px;
-    width: 1020px;
+    max-width: 1020px;
     margin: 0 auto;
 }
 
