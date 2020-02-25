@@ -11,7 +11,31 @@
 <body>
     <div class="wrapper">
         <div class="form-wrapper">
-
+            <section class="form-header">
+                <h3 class="header-heading">Get a Quote</h3>
+                <p class="header-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, <span>eget lacinia odio sem nec elit. 
+                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</span></p>
+            </section>
+            <div class="wrapper-form-info">
+            <div class="form">
+                <form action="./assets/action.php" method="POST">
+                    <input type="text" name="name" id="name" placeholder="Name (Required)" pattern="[a-zA-Z]+" required>
+                    <input type="email" id="email" name="email" placeholder="Email (Required)" pattern=".+@[a-zA-Z]+\.com" required>
+                    <input type="text" name="subject" id="subject" placeholder="Subject">
+                    <textarea id="textarea" name="textarea" rows="4" placeholder="Describe your project in detail..."></textarea>
+                    <input type="submit" value="Submit" id="submit">
+                  </form>
+            </div>
+            <div class="contact-information">
+                <h3 class="contact-information-header">Contact Information</h3>
+                <p class="contact-information-text">Quisque hendretit purus dapibus, ornare nibh vitae. viver- ra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequeat felis.</p>
+                <ul class="contact-data">
+                    <li class="place"><span>Elm St. 14/05 Lost City</span></li>
+                    <li class="phone"><a href="tel:035283318635">03528 331 86 35</a></li> 
+                    <li class="mail"><a href="mailto:sinfo@singolo.com">info@singolo.com</a></li> 
+                </ul>
+            </div>
+            </div>
         </div>
         <div class="form-line"></div>
         <footer class="footer">
