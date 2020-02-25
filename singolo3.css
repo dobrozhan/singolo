@@ -52,7 +52,7 @@
 
 .ico-facebook:hover {
     background-color: #eb5055;
-    transition: 1s;
+    transition: 0.3s;
     background-image: url(./assets/facebook-hover.svg);
     cursor: pointer;
 }
