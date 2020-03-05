@@ -5,7 +5,7 @@ html {
 /* Part-1 */
 .wrapper-part-1 {
     height: 1195px;
-    max-width: 1020px;
+    width: 1020px;
     margin: 0 auto;
 }
 .header {
