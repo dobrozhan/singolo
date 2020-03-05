@@ -731,6 +731,7 @@ html {
 }
 #textarea {
     height: 202px;
+    resize: none;
 }
 #name::placeholder {
     font-size: 12px;
