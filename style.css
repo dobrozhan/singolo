@@ -295,7 +295,9 @@ html {
     color: #ffffff;
 }
 .portfolio-buttons button:hover {
+    border: 1px solid #ffffff;
     cursor: pointer;
+    color: #ffffff;
 }
 .portfolio-buttons button:focus {
     outline: 0;
