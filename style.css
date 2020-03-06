@@ -181,6 +181,7 @@ html {
     flex-grow: 6;
     color: #767e9e;
     margin-top: 50px;
+    overflow: hidden;
 }
 .article h3 {
     text-transform: capitalize;
