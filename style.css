@@ -38,7 +38,7 @@ html {
     font-size: 12px;
     line-height: 6px;
     color: #ffffff;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     text-decoration: none;
     margin-right: 15px;
@@ -52,7 +52,7 @@ html {
     font-size: 25px;
     line-height: 6px;
     color: #ffffff;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     letter-spacing: -0.02em;
 }
@@ -139,7 +139,7 @@ html {
 .services {
     height: 500px;
     background-color: #F2F2F2;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
 }
 .wrapper-service-heading {
     display: flex;
@@ -705,15 +705,15 @@ html {
     padding-left: 17px;
 }
 .contact-data .place {
-    list-style-image: url('./assets/location.png');
+    list-style-image: url("./assets/location.png");
     margin-left: -1px;
 }
 .contact-data .phone {
-    list-style-image: url('./assets/phone.png');
+    list-style-image: url("./assets/phone.png");
     margin-left: 1px;
 }
 .contact-data .mail {
-    list-style-image: url('./assets/mail.png');
+    list-style-image: url("./assets/mail.png");
     margin-left: 2px;
 }
 .contact-data span, .contact-data a {
