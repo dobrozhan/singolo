@@ -206,6 +206,7 @@ html {
     display: flex;
     flex-flow: row wrap;
     align-items: flex-start;
+    overflow: hidden;
 }
 .inner-content {
     display: block;
@@ -365,6 +366,9 @@ html {
 .work-12 {
     background-image: url(./assets/12.png);
     background-position: 260px 792px;
+}
+.portfolio-columns > div:nth-child(n+13) {
+    display: none;
 }
 .about-us-heading {
     font-size: 30px;
