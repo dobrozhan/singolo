@@ -401,11 +401,13 @@ html {
     align-content: space-between;
     height: 510px;
 }
-.about-us-columns > div {
+.person-image {
     width: 303px;
     height: 545px;
 }
 .person-1, .person-2, .person-3 {
+    width: 303px;
+    height: 545px;
     display: flex;
     flex-flow: column nowrap;
     height: 100%;
