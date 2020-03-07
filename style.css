@@ -38,7 +38,7 @@ html {
     font-size: 12px;
     line-height: 6px;
     color: #ffffff;
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 700;
     text-decoration: none;
     margin-right: 15px;
@@ -61,7 +61,7 @@ html {
     font-size: 25px;
     line-height: 6px;
     color: #ffffff;
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 700;
     letter-spacing: -0.02em;
 }
@@ -153,7 +153,7 @@ html {
     font-size: 30px;
     line-height: 18px;
     color: #666d89;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 900;
     text-align: left;
     text-transform: capitalize;
@@ -166,7 +166,7 @@ html {
     font-size: 18px;
     line-height: 32px;
     color: #767e9e;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 300;
     text-align: left;
     letter-spacing: 0.008em;
@@ -189,7 +189,7 @@ html {
     font-size: 18px;
     line-height: 18px;
     color: #666d89;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 900;
     text-align: left;
 }
@@ -199,7 +199,7 @@ html {
     font-size: 12px;
     line-height: 22px;
     color: #767e9e;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 400;
     text-align: left;
 }
@@ -286,7 +286,7 @@ html {
     font-size: 30px;
     line-height: 18px;
     color: #666d89;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 900;
     padding: 70px 0 0 40px;
 }
@@ -294,7 +294,7 @@ html {
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 300;
     padding: 25px 0 0 40px;
 }
@@ -309,7 +309,7 @@ html {
     font-size: 12px;
     line-height: 19px;
     color: #767e9e;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 400;
     text-align: center;
     margin-left: 7px;
@@ -404,7 +404,7 @@ html {
     font-size: 30px;
     line-height: 18px;
     color: #666d89;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 900;
     padding: 68px 0 0 40px;
 }
@@ -414,7 +414,7 @@ html {
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 300;
     padding: 25px 0 0 40px;
     letter-spacing: 0.008em;
@@ -455,7 +455,7 @@ html {
     font-size: 18px;
     line-height: 18px;
     color: #666d89;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 900;
     text-align: left;
     padding-top: 16px;
@@ -469,7 +469,7 @@ html {
     font-size: 12px;
     line-height: 22px;
     color: #767e9e;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 400;
     text-align: justify;
     padding-top: 9px;
@@ -576,7 +576,7 @@ html {
     font-size: 12px;
     line-height: 6px;
     color: #666d89;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 400;
     text-align: left;
     word-spacing: 0.1em;
@@ -664,7 +664,7 @@ html {
     font-size: 30px;
     line-height: 18px;
     color: #f0d8d9;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 900;
     text-align: left;
 }
@@ -675,7 +675,7 @@ html {
     font-size: 18px;
     line-height: 30px;
     color: #f0d8d9;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 300;
     text-align: left;
     letter-spacing: 0.008em;
@@ -709,7 +709,7 @@ html {
     font-size: 18px;
     line-height: 20px;
     color: #f0d8d9;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 600;
     text-align: left;
     letter-spacing: 0.01em;
@@ -719,7 +719,7 @@ html {
     font-size: 12px;
     line-height: 22px;
     color: #f0d8d9;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 400;
     text-align: justify;
     letter-spacing: -0.01em;
@@ -728,7 +728,7 @@ html {
     font-size: 11px;
     line-height: 22px;
     color: #f0d8d9;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 400;
     text-align: justify;
     padding-top: 20px;
@@ -738,7 +738,7 @@ html {
     list-style-image: url("./assets/location.png");
     margin-left: -1px;
 }
-.contact-data .phone {
+.contact-data .phone-num {
     list-style-image: url("./assets/phone.png");
     margin-left: 1px;
 }
@@ -765,16 +765,14 @@ html {
     font-size: 12px;
     line-height: 22px;
     color: #f48c8f;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 400;
     text-align: left;
     padding-left: 14px;
     padding-top: 6px;
     outline:0;
 }
-#name {
-    margin-bottom: 2px;
-}
+
 #email {
     margin-top: 12px;
 }
@@ -790,7 +788,7 @@ html {
     font-size: 12px;
     line-height: 22px;
     color: #f48c8f;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 400;
     text-align: left;
 }
@@ -798,7 +796,7 @@ html {
     font-size: 12px;
     line-height: 22px;
     color: #f48c8f;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 400;
     text-align: left;
 }
@@ -814,7 +812,7 @@ html {
     font-size: 12px;
     line-height: 22px;
     color: #f48c8f;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 400;
     text-align: left;
 }
@@ -825,7 +823,7 @@ html {
     font-size: 12px;
     line-height: 25px;
     color: #ffffff;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 400;
     text-align: center;
     margin-top: 15px;
