@@ -48,6 +48,15 @@ html {
 .nav ul li a:hover {
     color: #f06c64;
 }
+.nav ul li a::before {
+    content: '\25CF';
+    font-size: 7px;
+    margin-right: 11px;
+    vertical-align: 50%;
+}
+#empty-dot::before {
+    content: '';
+}
 .logo {
     font-size: 25px;
     line-height: 6px;
@@ -56,21 +65,12 @@ html {
     font-weight: 700;
     letter-spacing: -0.02em;
 }
+.logo-start {
+    text-transform: uppercase;
+}
 #logo-end {
     color: #f06c64;
     font-weight: 500;
-}
-.dot {
-    height: 3px;
-    width: 3px;
-    background-color: grey;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 12px;
-    vertical-align: middle;
-}
-.empty {
-    display: none;
 }
 .main-body {
     height: 593px;
@@ -93,10 +93,10 @@ html {
     margin-bottom: 6px;
 }
 .chev-left:active {
-    opacity: 0.2;
+    filter: invert(32%) sepia(22%) saturate(2799%) hue-rotate(317deg) brightness(107%) contrast(91%);
 }
 .chev-right:active {
-    opacity: 0.2;
+    filter: invert(32%) sepia(22%) saturate(2799%) hue-rotate(317deg) brightness(107%) contrast(91%);
 }
 .vertical-phone {
     margin-bottom: 5px;
@@ -112,7 +112,7 @@ html {
     height: 335px;
     overflow: hidden;
     background-image: url(assets/vertical-bg-screen.svg);
-    background-position: -13px 446px;
+    background-position: -11px 447px;
     position: relative;
     bottom: 480px;
     left: 121px;
@@ -157,13 +157,14 @@ html {
     font-weight: 900;
     text-align: left;
     text-transform: capitalize;
+    letter-spacing: -0.007em;
 }
 .wrapper-service-heading p {
     padding-top: 27px;
     width: 940px;
     height: 57px;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 32px;
     color: #767e9e;
     font-family: "Lato";
     font-weight: 300;
@@ -229,6 +230,35 @@ html {
 .bottom-main-services {
     height: 6px;
     background-color: #ffffff;
+}
+.bulb {
+    position: relative;
+    left: 1px;
+}
+.phone {
+    position: relative;
+    top: 1px;
+}
+.bubble {
+    position: relative;
+    top: 2px;
+    left: 1px;
+}
+.star {
+    position: relative;
+    top: 1px;
+}
+.inner-content__header {
+    position: relative;
+    right: 3px;
+}
+.inner-content__text {
+    position: relative;
+    left: 3px;
+}
+.inner-content__text__right {
+    position: relative;
+    left: 2px;
 }
 /* Part-2 */
 .wrapper-part-2 {
