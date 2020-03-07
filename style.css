@@ -579,10 +579,9 @@ html {
     font-family: "Lato", Helvetica, sans-serif;
     font-weight: 400;
     text-align: left;
-    word-spacing: 0.1em;
 }
 .icons-footer {
-    padding-right: 40px;
+    padding-right: 39px;
 }
 .footer {
     display: flex;
@@ -655,7 +654,7 @@ html {
     height: 100%;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-top: 22px;
+    padding-top: 20px;
 }
 .social-icons:last-child {
     margin-right: 0;
@@ -673,7 +672,7 @@ html {
     width: 940px;
     height: 57px;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 31px;
     color: #f0d8d9;
     font-family: "Lato", Helvetica, sans-serif;
     font-weight: 300;
@@ -769,10 +768,12 @@ html {
     font-weight: 400;
     text-align: left;
     padding-left: 14px;
-    padding-top: 6px;
+    padding-top: 5px;
     outline:0;
 }
-
+#textarea {
+    padding-top: 7px;
+}
 #email {
     margin-top: 12px;
 }
@@ -850,6 +851,12 @@ html {
     font-display: swap;
     src: local('Lato Hairline Italic'), local('Lato-HairlineItalic'), url(./assets/fonts/S6u-w4BMUTPHjxsIPx-oPCI.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+.copyright__provider::before {
+    content: '\25CF';
+    font-size: 5px;
+    margin-right: 2px;
+    vertical-align: 50%;
 }
 /* latin-ext */
 @font-face {
