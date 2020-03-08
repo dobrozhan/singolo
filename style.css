@@ -462,6 +462,9 @@ html {
     letter-spacing: -0.007em; 
     white-space: nowrap;
     text-overflow: ellipsis;
+    height: 92px;
+    width: 307px;
+    overflow: hidden; 
 }
 .about-us-text {
     width: 300px;
