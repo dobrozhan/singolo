@@ -492,7 +492,7 @@ html {
     background-repeat: no-repeat;
     width: 32px;
     height: 32px;
-    border-radius: 16px;
+    border-radius: 50%;
     border: 1px solid #666d89;
 }
 .ico-facebook:hover {
@@ -507,7 +507,7 @@ html {
     background-repeat: no-repeat;
     width: 32px;
     height: 32px;
-    border-radius: 16px;
+    border-radius: 50%;
     border: 1px solid #666d89;
 }
 .ico-google:hover {
@@ -522,7 +522,7 @@ html {
     background-repeat: no-repeat;
     width: 32px;
     height: 32px;
-    border-radius: 16px;
+    border-radius: 50%;
     border: 1px solid #666d89;
 }
 .ico-twitter:hover {
@@ -537,7 +537,7 @@ html {
     background-repeat: no-repeat;
     width: 32px;
     height: 32px;
-    border-radius: 16px;
+    border-radius: 50%;
     border: 1px solid #666d89;
 }
 .ico-linkedin:hover {
@@ -597,7 +597,7 @@ html {
     background-repeat: no-repeat;
     width: 32px;
     height: 32px;
-    border-radius: 16px;
+    border-radius: 50%;
     border: 1px solid #666d89;
 }
 .ico-facebook:hover {
@@ -612,7 +612,7 @@ html {
     background-repeat: no-repeat;
     width: 32px;
     height: 32px;
-    border-radius: 16px;
+    border-radius: 50%;
     border: 1px solid #666d89;
 }
 .ico-google:hover {
@@ -627,7 +627,7 @@ html {
     background-repeat: no-repeat;
     width: 32px;
     height: 32px;
-    border-radius: 16px;
+    border-radius: 50%;
     border: 1px solid #666d89;
 }
 .ico-twitter:hover {
@@ -642,7 +642,7 @@ html {
     background-repeat: no-repeat;
     width: 32px;
     height: 32px;
-    border-radius: 16px;
+    border-radius: 50%;
     border: 1px solid #666d89;
 }
 .ico-linkedin:hover {
