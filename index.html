@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,82 +8,98 @@
     <link rel="stylesheet" href="./style.css">
     <title>Singolo</title>
 </head>
-
 <body>
-
     <!-- Part 1 -->
-    <div class="wrapper-part-1">
-        <header class="header">
+    <div class="wrapper-part-1" id="header">
+        <header class="header" >
             <div class="logo">
-                <h1 class="logo-start">singolo<span id="logo-end">*</span></h1>
+                <h1 class="logo-start"><a href="./index.html">singolo<span id="logo-end">*</span></a></h1>
             </div>
-            <nav class="nav">
-                <ul>
-                    <li><a href="#" id="empty-dot">home </a></li>
-                    <li><a href="#">services</a></li>
-                    <li><a href="#">portfolio</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">contact</a></li>
-                </ul>
+            <nav class="nav" id="nav-buttons">
+                <a href="#header" id="empty-dot" class="btn__nav">home</a>
+                <a href="#services" class="btn__nav">services</a>
+                <a href="#portfolio" class="btn__nav">portfolio</a>
+                <a href="#about-us" class="btn__nav">about</a>
+                <a href="#contact" class="btn__nav">contact</a>
             </nav>
         </header>
         <div class="bottom-header"></div>
-
-        <main class="main">
-            <div class="main-body">
-                <a href="#"><img src="assets/chev-left.png" class="chev-left" alt="chev-left" /></a>
-                <img src="assets/vertical.png" class="vertical-phone" alt="vertical-phone" height="485" width="240" />
-                <img src="assets/horizontal.png" class="horizontal-phone" alt="horizontal-phone" height="240" width="485" />
-                <a href="#"><img src="assets/chev-right.png" class="chev-right" alt="chev-right" /></a>
+        <main class="main" >
+            <div class="carousel">
+                <div class="slides">
+                    <div class="slide_1 visible">
+                        <img src="./assets/img/chev-left.png" class="chev-left prev" alt="chev-left" />
+                        <img src="./assets/img/vertical.png" class="vertical-phone" alt="vertical-phone" height="485" width="240" />
+                        <div class="vertical-bg-screen" id="vertical-bg-slide-1"></div>
+                        <img src="./assets/img/horizontal.png" class="horizontal-phone" alt="horizontal-phone" height="240" width="485" />
+                        <div class="horizontal-bg-screen" id="horizontal-bg-slide-1"></div>
+                        <img src="./assets/img/chev-right.png" class="chev-right next" alt="chev-right" />
+                        <div id="display_1"></div>
+                        <div id="display_2"></div>
+                    </div>
+                    <div class="bottom-main"></div>
+                    <div class="slide__2 hidden">
+                        <div class="slide_2">
+                            <img src="./assets/img/chev-left.png" class="chev-left prev" alt="chev-left" />
+                            <img src="./assets/img/phone-vertical-small.png" class="small-left-slide-2" alt="small-phone-slide-2" height="314" width="156" />
+                            <div class="bg-left-slide-2-small" id="left-slide-2-small"></div>
+                            <img src="./assets/img/phone-vertical.png" class="phone-slide-2" alt="phone-slide-2" height="513" width="255" />
+                            <div class="vertical-bg-screen-slide-2" id="bg-screen-slide-2"></div>
+                            <img src="./assets/img/phone-vertical-small.png" class="small-right-slide-2" alt="small-phone-slide-2" height="314" width="156" />
+                            <div class="bg-right-slide-2-small" id="right-slide-2-small"></div>
+                            <img src="./assets/img/chev-right.png" class="chev-right next" alt="chev-right" />
+                            <div id="display_3"></div>
+                            <div id="display_4"></div>
+                            <div id="display_5"></div>
+                        </div>
+                        <div class="bottom_slide_2"></div>
+                    </div>
+                </div>         
+                <div id="services"></div>    
             </div>
-            <div class="vertical-bg-screen"></div>
-            <div class="horizontal-bg-screen"></div>
-            <div class="bottom-main"></div>
-
             <div class="services">
                 <section class="wrapper-service-heading">
                     <h2>our services</h2>
                     <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, <span id="service-header-spacing">eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris codimentum nibh.</span></p>
                 </section>
-
                 <div class="wrapper-service-articles">
                     <article class="article">
-                        <img src="assets/pen.svg" class="service-svg" alt="pen" />
+                        <img src="./assets/img/pen.svg" class="service-svg" alt="pen" />
                         <div class="inner-content">
                             <h3 class="inner-content__header">custom design</h3>
                             <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultices velit.</p>
                         </div>
                     </article>
                     <article class="article">
-                        <img src="assets/bulb.svg" class="service-svg bulb" alt="bulb" />
+                        <img src="./assets/img/bulb.svg" class="service-svg bulb" alt="bulb" />
                         <div class="inner-content">
                             <h3>inovative ideas</h3>
                             <p class="inner-content__text">Quisque luctus, quam eget molestie com&shy;modo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
                         </div>
                     </article>
                     <article class="article">
-                        <img src="assets/heart.svg" class="service-svg right-align-service" alt="heart" />
+                        <img src="./assets/img/heart.svg" class="service-svg right-align-service" alt="heart" />
                         <div class="inner-content">
                             <h3>love is the answer</h3>
                             <p class="inner-content__text__right">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
                         </div>
                     </article>
                     <article class="article">
-                        <img src="assets/phone.svg" class="service-svg phone" alt="phone" />
+                        <img src="./assets/img/phone.svg" class="service-svg phone" alt="phone" />
                         <div class="inner-content">
                             <h3 class="inner-content__header">responsive layout</h3>
                             <p>Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Prae&shy;sent elit leo.</p>
                         </div>
                     </article>
                     <article class="article">
-                        <img src="assets/bubble.svg" class="service-svg bubble" alt="bubble" />
+                        <img src="./assets/img/bubble.svg" class="service-svg bubble" alt="bubble" />
                         <div class="inner-content">
                             <h3>24 / 7 support</h3>
                             <p class="inner-content__text">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellen&shy;tesque egestas venenatis lorem.</p>
                         </div>
                     </article>
                     <article class="article">
-                        <img src="assets/star.svg" class="service-svg right-align-service star" alt="star" />
+                        <img src="./assets/img/star.svg" class="service-svg right-align-service star" alt="star" />
                         <div class="inner-content">
                             <h3>feel like a star</h3>
                             <p class="inner-content__text__right">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
@@ -93,86 +108,82 @@
                 </div>
             </div>
         </main>
+        <div id="portfolio"></div>
         <div class="bottom-main-services"></div>
     </div>
-
     <!-- Part 2 -->
     <div class="wrapper-part-2">
         <div class="portfolio-wrapper">
             <h2 class="portfolio-heading">Portfolio</h2>
             <p class="portfolio-heading-text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
             <div class="portfolio-buttons">
-                <button class="button" type="button">All</button>
-                <button class="button" type="button">Web Design</button>
-                <button class="button" type="button">Graphic Design</button>
-                <button class="button" type="button">Artwork</button>
+                <button class="button" type="button" id="portfolio-all">All</button>
+                <button class="button" type="button" id="portfolio-web">Web Design</button>
+                <button class="button" type="button" id="portfolio-graphic">Graphic Design</button>
+                <button class="button" type="button" id="portfolio-artwork">Artwork</button>
             </div>
             <div class="portfolio-columns">
-                <div class="work-1"></div>
-                <div class="work-2"></div>
-                <div class="work-3"></div>
-                <div class="work-4"></div>
-                <div class="work-5"></div>
-                <div class="work-6"></div>
-                <div class="work-7"></div>
-                <div class="work-8"></div>
-                <div class="work-9"></div>
-                <div class="work-10"></div>
-                <div class="work-11"></div>
-                <div class="work-12"></div>
+                <div class="work-1 web-design all"></div>
+                <div class="work-2 graphic-design all"></div>
+                <div class="work-3 artwork all"></div>
+                <div class="work-4 web-design all"></div>
+                <div class="work-5 graphic-design all"></div>
+                <div class="work-6 artwork all"></div>
+                <div class="work-7 web-design all"></div>
+                <div class="work-8 artwork all"></div>
+                <div class="work-9 graphic-design all"></div>
+                <div class="work-10 artwork all"></div>
+                <div class="work-11 graphic-design all"></div>
+                <div class="work-12 web-design all"></div>
             </div>
-
         </div>
+        <div id="about-us"></div>
         <div class="portfolio-line"></div>
         <div class="about-us-wrapper">
             <h2 class="about-us-heading">About Us</h2>
             <p class="about-us-heading-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor <span>ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</span></p>
             <div class="about-us-columns">
-
                 <div class="person-1">
-                    <img src="./assets/photo-1.png" alt="person-1" class="person-image">
+                    <img src="./assets/img/photo-1.png" alt="person-1" class="person-image">
                     <div class="photo-1"></div>
                     <h3 class="about-us-name">Adam Jensen</h3>
                     <p class="about-us-text">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
                     <div class="icons">
-                        <div class="social-icons ico-facebook"></div>
-                        <div class="social-icons ico-google"></div>
-                        <div class="social-icons ico-twitter"></div>
-                        <div class="social-icons ico-linkedin"></div>
+                        <a href="https://www.facebook.com/" class="social-icons ico-facebook" target="_blank"></a>
+                        <a href="https://google.com/" class="social-icons ico-google" target="_blank"></a>
+                        <a href="https://twitter.com/" class="social-icons ico-twitter" target="_blank"></a>
+                        <a href="https://www.linkedin.com/" class="social-icons ico-linkedin" target="_blank"></a>
                     </div>
                 </div>
-
                 <div class="person-2">
-                    <img src="./assets/photo-2.png" alt="person-2" class="person-image">
+                    <img src="./assets/img/photo-2.png" alt="person-2" class="person-image">
                     <div class="photo-2"></div>
                     <h3 class="about-us-name">Desmond Miles</h3>
                     <p class="about-us-text">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
                     <div class="icons">
-                        <div class="social-icons ico-facebook"></div>
-                        <div class="social-icons ico-google"></div>
-                        <div class="social-icons ico-twitter"></div>
-                        <div class="social-icons ico-linkedin"></div>
+                        <a href="https://www.facebook.com/" class="social-icons ico-facebook" target="_blank"></a>
+                        <a href="https://google.com/" class="social-icons ico-google" target="_blank"></a>
+                        <a href="https://twitter.com/" class="social-icons ico-twitter" target="_blank"></a>
+                        <a href="https://www.linkedin.com/" class="social-icons ico-linkedin" target="_blank"></a>
                     </div>
                 </div>
-
                 <div class="person-3">
-                    <img src="./assets/photo-3.png" alt="person-3" class="person-image">
+                    <img src="./assets/img/photo-3.png" alt="person-3" class="person-image">
                     <div class="photo-3"></div>
                     <h3 class="about-us-name">Scolara Visari</h3>
                     <p class="about-us-text">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
                     <div class="icons">
-                        <div class="social-icons ico-facebook"></div>
-                        <div class="social-icons ico-google"></div>
-                        <div class="social-icons ico-twitter"></div>
-                        <div class="social-icons ico-linkedin"></div>
+                        <a href="https://www.facebook.com/" class="social-icons ico-facebook" target="_blank"></a>
+                        <a href="https://google.com/" class="social-icons ico-google" target="_blank"></a>
+                        <a href="https://twitter.com/" class="social-icons ico-twitter" target="_blank"></a>
+                        <a href="https://www.linkedin.com/" class="social-icons ico-linkedin" target="_blank"></a>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="contact"></div>
         <div class="about-us-line"></div>
-        <div class="test"></div>
     </div>
-
     <!-- Part 3 -->
     <div class="wrapper-part-3">
         <div class="form-wrapper">
@@ -183,12 +194,12 @@
             </section>
             <div class="wrapper-form-info">
                 <div class="form">
-                    <form action="./assets/action.php" method="POST">
+                    <form action="#" method="GET">
                         <input type="text" name="name" id="name" placeholder="Name (Required)" pattern="[a-zA-Z]+" required>
                         <input type="email" id="email" name="email" placeholder="Email (Required)" pattern=".+@[a-zA-Z]+\.com" required>
                         <input type="text" name="subject" id="subject" placeholder="Subject">
                         <textarea id="textarea" name="textarea" rows="4" placeholder="Describe your project in detail..."></textarea>
-                        <input type="submit" value="Submit" id="submit">
+                        <input type="submit" value="Send" id="submit">
                     </form>
                 </div>
                 <div class="contact-information">
@@ -200,22 +211,33 @@
                         <li class="mail"><a href="mailto:sinfo@singolo.com">info@singolo.com</a></li>
                     </ul>
                 </div>
-            </div>
+                </div>
+                <div id="message-block" class="hidden">
+                    <div id="message">
+                        <p id="message__header">Application sent</p>
+                        <br>
+                        <p>Subject: <span id="result-subject"></span></p>
+                        <br>
+                        <p>Description: <span id="result-describe"></span></p>
+                        <br>
+                        <button id="close-btn">OK</button>
+                    </div>
+                </div>
         </div>
         <div class="form-line"></div>
         <footer class="footer">
             <div class="copyright">
                 <p>&copy; Copyright 2013 <span class="copyright__provider">by PSDchat.com</span></p>
-                
             </div>
             <div class="icons-footer">
-                <div class="social-icons ico-facebook "></div>
-                <div class="social-icons ico-google"></div>
-                <div class="social-icons ico-twitter"></div>
-                <div class="social-icons ico-linkedin"></div>
+                <a href="https://www.facebook.com/" class="social-icons ico-facebook" target="_blank"></a>
+                <a href="https://google.com/" class="social-icons ico-google" target="_blank"></a>
+                <a href="https://twitter.com/" class="social-icons ico-twitter" target="_blank"></a>
+                <a href="https://www.linkedin.com/" class="social-icons ico-linkedin" target="_blank"></a>
             </div>
         </footer>
     </div>
+    <!-- Script connection -->
+    <script src="./script.js"></script>
 </body>
-
 </html>
