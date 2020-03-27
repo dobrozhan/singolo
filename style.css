@@ -1,6 +1,7 @@
 html {
     width: 1200px;
     margin: 0 auto;
+    scroll-behavior: smooth;
 }
 /* Part-1 */
 .wrapper-part-1 {
