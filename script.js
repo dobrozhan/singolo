@@ -1,11 +1,28 @@
 // Header
+window.addEventListener('scroll', onScroll);
 
-const active = event => {
-  document.querySelectorAll('.btn__nav').forEach(btn__nav => btn__nav.classList.remove('selected'));
-  event.target.classList.add('selected');
-};
+function onScroll() {
+    const currentPos = window.scrollY;
+    const navLinks = document.querySelectorAll('.nav__link');
+    const navAnchors = document.querySelectorAll('.btn__nav');
 
-document.querySelector('nav').addEventListener('click', active);
+    navLinks.forEach(item => {
+        if (item.offsetTop <= currentPos) {
+          navAnchors.forEach(link => {
+            link.classList.remove('selected');
+            if (item.getAttribute('id') === link.getAttribute('href').substring(1)) {
+              link.classList.add('selected');
+            }
+          });
+        } 
+        
+        if (currentPos >= 2580) {
+          document.getElementById('btn__contact').classList.add('selected');
+          document.getElementById('btn__about').classList.remove('selected');
+        }
+    });
+}
+
 
 // Slider
 
@@ -28,6 +45,9 @@ prev[1].addEventListener('click', function() {
  next[1].addEventListener('click', function() {
   list.forEach(el => el.classList.toggle('hidden'))
  });
+
+
+
 
 // Display on-off
 

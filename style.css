@@ -160,6 +160,7 @@ html {
 .small-left-slide-2 {
     margin-left: 193px;
     margin-top: 27px;
+    opacity: 0.5;
 }
 .phone-slide-2 {
     position: relative;
@@ -171,6 +172,7 @@ html {
     position: relative;
     right: 80px;
     top: 13px;
+    opacity: 0.5;
 }
 .bg-left-slide-2-small {
     background-image: url(./assets/img/phone-vertical-display-small.png);
@@ -181,6 +183,7 @@ html {
     top: 7px;
     margin-left: -143px;
     border: 3px solid #c6c6c6;
+    opacity: 0.5;
 }
 .vertical-bg-screen-slide-2 {
     background-image: url(./assets/img/phone-vertical-display.png);
@@ -201,6 +204,7 @@ html {
     right: 228px;
     top: 7px;
     border: 3px solid #c6c6c6;
+    opacity: 0.5;
 }
 #services {
     position: relative;

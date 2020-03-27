@@ -10,21 +10,21 @@
 </head>
 <body>
     <!-- Part 1 -->
-    <div class="wrapper-part-1" id="header">
-        <header class="header" >
+    <div class="wrapper-part-1">
+        <header class="header">
             <div class="logo">
                 <h1 class="logo-start"><a href="./index.html">singolo<span id="logo-end">*</span></a></h1>
             </div>
             <nav class="nav" id="nav-buttons">
-                <a href="#header" id="empty-dot" class="btn__nav">home</a>
-                <a href="#services" class="btn__nav">services</a>
-                <a href="#portfolio" class="btn__nav">portfolio</a>
-                <a href="#about-us" class="btn__nav">about</a>
-                <a href="#contact" class="btn__nav">contact</a>
+                <a href="#header" id="empty-dot" class="btn__nav selected">home</a>
+                <a href="#services" id="btn__services" class="btn__nav">services</a>
+                <a href="#portfolio" id="btn__portfolio" class="btn__nav">portfolio</a>
+                <a href="#about-us" id="btn__about" class="btn__nav">about</a>
+                <a href="#contact" id="btn__contact" class="btn__nav">contact</a>
             </nav>
         </header>
-        <div class="bottom-header"></div>
-        <main class="main" >
+        <div id="header" class="bottom-header nav__link"></div>
+        <main class="main">
             <div class="carousel">
                 <div class="slides">
                     <div class="slide_1 visible">
@@ -55,7 +55,7 @@
                         <div class="bottom_slide_2"></div>
                     </div>
                 </div>         
-                <div id="services"></div>    
+                <div id="services" class="nav__link"></div>    
             </div>
             <div class="services">
                 <section class="wrapper-service-heading">
@@ -108,7 +108,7 @@
                 </div>
             </div>
         </main>
-        <div id="portfolio"></div>
+        <div id="portfolio" class="nav__link"></div>
         <div class="bottom-main-services"></div>
     </div>
     <!-- Part 2 -->
@@ -137,7 +137,7 @@
                 <div class="work-12 web-design all"></div>
             </div>
         </div>
-        <div id="about-us"></div>
+        <div id="about-us" class="nav__link"></div>
         <div class="portfolio-line"></div>
         <div class="about-us-wrapper">
             <h2 class="about-us-heading">About Us</h2>
@@ -181,7 +181,7 @@
                 </div>
             </div>
         </div>
-        <div id="contact"></div>
+        <div id="contact" class="nav__link"></div>
         <div class="about-us-line"></div>
     </div>
     <!-- Part 3 -->
@@ -227,7 +227,7 @@
         <div class="form-line"></div>
         <footer class="footer">
             <div class="copyright">
-                <p>&copy; Copyright 2013 <span class="copyright__provider">by PSDchat.com</span></p>
+                <p>&copy; Copyright 2020 <span class="copyright__provider">by PSDchat.com</span></p>
             </div>
             <div class="icons-footer">
                 <a href="https://www.facebook.com/" class="social-icons ico-facebook" target="_blank"></a>
