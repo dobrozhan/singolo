@@ -250,13 +250,12 @@ html {
 }
 #services {
     position: relative;
-    bottom: 80px;
+    bottom: 89px;
     height: 1px;
     opacity: 0;
 }
 .bottom-main {
     position: relative;
-    bottom: 1px;
     height: 7px;
     background-color: #ea676b;
 }
@@ -388,7 +387,7 @@ html {
 }
 #portfolio {
     position: relative;
-    bottom: 82px;
+    bottom: 88px;
     height: 1px;
     opacity: 0;
 }
@@ -475,7 +474,7 @@ html {
 }
 #about-us {
     position: relative;
-    bottom: 80px;
+    bottom: 89px;
     height: 1px;
     opacity: 0;
 }
@@ -784,7 +783,7 @@ html {
 }
 #contact {
     position: relative;
-    bottom: 83px;
+    bottom: 89px;
     height: 1px;
     opacity: 0;
 }
