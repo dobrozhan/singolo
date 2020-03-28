@@ -27,18 +27,18 @@
         <main class="main">
             <div class="carousel">
                 <div class="slides">
-                    <div class="slide_1 visible">
-                        <img src="./assets/img/chev-left.png" class="chev-left prev" alt="chev-left" />
-                        <img src="./assets/img/vertical.png" class="vertical-phone" alt="vertical-phone" height="485" width="240" />
-                        <div class="vertical-bg-screen" id="vertical-bg-slide-1"></div>
-                        <img src="./assets/img/horizontal.png" class="horizontal-phone" alt="horizontal-phone" height="240" width="485" />
-                        <div class="horizontal-bg-screen" id="horizontal-bg-slide-1"></div>
-                        <img src="./assets/img/chev-right.png" class="chev-right next" alt="chev-right" />
-                        <div id="display_1"></div>
-                        <div id="display_2"></div>
+                    <div class="slide_1" id="slide_1">
+                            <img src="./assets/img/chev-left.png" class="chev-left prev" alt="chev-left" />
+                            <img src="./assets/img/vertical.png" class="vertical-phone" alt="vertical-phone" height="485" width="240" />
+                            <div class="vertical-bg-screen" id="vertical-bg-slide-1"></div>
+                            <img src="./assets/img/horizontal.png" class="horizontal-phone" alt="horizontal-phone" height="240" width="485" />
+                            <div class="horizontal-bg-screen" id="horizontal-bg-slide-1"></div>
+                            <img src="./assets/img/chev-right.png" class="chev-right next" alt="chev-right" />
+                            <div id="display_1"></div>
+                            <div id="display_2"></div>
                     </div>
                     <div class="bottom-main"></div>
-                    <div class="slide__2 hidden">
+                    <div class="slide__2" id="slide_2">
                         <div class="slide_2">
                             <img src="./assets/img/chev-left.png" class="chev-left prev" alt="chev-left" />
                             <img src="./assets/img/phone-vertical-small.png" class="small-left-slide-2" alt="small-phone-slide-2" height="314" width="156" />
@@ -194,7 +194,7 @@
             </section>
             <div class="wrapper-form-info">
                 <div class="form" >
-                    <form action="#" method="GET">
+                    <form action="#" method="GET" id="form">
                         <input type="text" name="name" id="name" placeholder="Name (Required)" pattern="[a-zA-Z]+" required>
                         <input type="email" id="email" name="email" placeholder="Email (Required)" pattern=".+@[a-zA-Z]+\.com" required>
                         <input type="text" name="subject" id="subject" placeholder="Subject">
