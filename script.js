@@ -66,6 +66,11 @@ prev[1].addEventListener('click', function() {
   if (slide2.classList.contains('red-position-left')) { slide2.classList.remove('red-position-left'); }
   if (slide2.classList.contains('blue-position-left')) { slide2.classList.remove('blue-position-left'); }
 
+  if (!slide1.classList.contains('move-left')) { slide1.classList.add('move-left'); }
+  if (!slide2.classList.contains('move-left')) { slide2.classList.add('move-left'); }
+  if (!slide2.classList.contains('blue-position-right')) { slide2.classList.add('blue-position-right'); }
+
+
   setTimeout(function() {
     slide1.classList.toggle('red-position-right');
     slide1.classList.toggle('move-left');
@@ -119,17 +124,17 @@ next[0].addEventListener('click', function() {
 //
 next[1].addEventListener('click', function() {
 
-  if (slide1.classList.contains('move-left')) { slide1.classList.remove('move-left'); }
   if (!slide1.classList.contains('move-right')) { slide1.classList.add('move-right'); }
+  if (!slide2.classList.contains('move-right')) { slide2.classList.add('move-right'); }
+  if (!slide2.classList.contains('blue-position-left')) { slide2.classList.add('blue-position-right'); }
+
+  if (slide1.classList.contains('move-left')) { slide1.classList.remove('move-left'); }
   if (slide1.classList.contains('red-position-right')) { slide1.classList.remove('red-position-right'); }
   if (slide1.classList.contains('blue-position-right')) { slide1.classList.remove('blue-position-right'); }
 
   if (slide2.classList.contains('move-left')) { slide2.classList.remove('move-left'); }
-  if (!slide2.classList.contains('move-right')) { slide2.classList.add('move-right'); }
-  if (!slide2.classList.contains('blue-position-left')) { slide2.classList.add('blue-position-left'); }
   if (slide2.classList.contains('red-position-right')) { slide2.classList.remove('red-position-right'); }
   if (slide2.classList.contains('blue-position-right')) { slide2.classList.remove('blue-position-right'); }
-
 
   setTimeout(function() {
     slide1.classList.toggle('red-position-left');
