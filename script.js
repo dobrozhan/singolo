@@ -7,7 +7,7 @@ function onScroll() {
     const navAnchors = document.querySelectorAll('.btn__nav');
 
     navLinks.forEach(item => {
-        if (item.offsetTop <= currentPos) {
+        if (item.offsetTop <= currentPos + 1) {
           navAnchors.forEach(link => {
             link.classList.remove('selected');
             if (item.getAttribute('id') === link.getAttribute('href').substring(1)) {
