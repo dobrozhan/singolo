@@ -67,9 +67,9 @@ prev[1].addEventListener('click', function() {
   if (slide2.classList.contains('blue-position-left')) { slide2.classList.remove('blue-position-left'); }
 
   setTimeout(function() {
-    if (!slide1.classList.contains('move-left')) { slide1.classList.add('move-left'); }
-    slide1.classList.toggle('red-position-right');
-    slide1.classList.toggle('move-left');
+  if (!slide1.classList.contains('move-left')) { slide1.classList.add('move-left'); }
+  slide1.classList.toggle('red-position-right');
+  slide1.classList.toggle('move-left');
   }, 1);
 
   setTimeout(function() {
@@ -77,11 +77,11 @@ prev[1].addEventListener('click', function() {
   }, 100);
 
   setTimeout(function() {
-    if (!slide2.classList.contains('move-left')) { slide2.classList.add('move-left'); }
-    if (!slide2.classList.contains('blue-position-right')) { slide2.classList.add('blue-position-right'); }
-    slide2.classList.toggle('move-left'); 
-    slide2.classList.toggle('blue-position-right');
-    slide2.classList.toggle('blue-position-center');  
+  if (!slide2.classList.contains('move-left')) { slide2.classList.add('move-left'); }
+  if (!slide2.classList.contains('blue-position-right')) { slide2.classList.add('blue-position-right'); }
+  slide2.classList.toggle('move-left'); 
+  slide2.classList.toggle('blue-position-right');
+  slide2.classList.toggle('blue-position-center');  
   }, 2);
 
   setTimeout(function() {
@@ -227,13 +227,11 @@ portfolioAll.addEventListener('click', function() {
   portfolioItems.forEach(el => el.classList.remove('hidden'));
  });
 
-
 webDesign.addEventListener('click', function() {
   portfolioItems.forEach(el => {
     el.classList.contains('web-design') ? (el.classList.add('visible'), el.classList.remove('hidden')) : el.classList.add('hidden');
   });
  });
-
 
  graphicDesign.addEventListener('click', function() {
   portfolioItems.forEach(el => {
@@ -282,3 +280,26 @@ CLOSEBUTTON.addEventListener('click', () => {
   document.getElementById('message-block').classList.add('hidden');
   document.getElementById('form').reset();
 });
+
+// burger-menu
+
+const burger = document.querySelector('.burger-menu');
+
+burger.addEventListener('click', burgerMenu);
+
+function burgerMenu() {
+  console.log('hello');
+
+  var x = document.getElementById("nav-buttons");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+
+  burger.classList.toggle('transform');
+
+  document.querySelector('.logo').classList.toggle('logo-positioning-burger');
+  document.querySelector('#burger-shadow').classList.toggle('burger-shadow');
+
+}
